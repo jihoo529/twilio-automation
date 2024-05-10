@@ -15,16 +15,14 @@ class SalesForce:
         time.sleep(2)
 
         copado_id_input = self.driver.find_element(By.ID, "username")
-        copado_id_input.send_keys('jihoo.lee@pccw.com.copado')
+        copado_id_input.send_keys('example ID') #replace with your ID
         copado_pw_input = self.driver.find_element(By.ID, "password")
-        copado_pw_input.send_keys('key@exlogin01')
+        copado_pw_input.send_keys('example password') #replace with your PW
 
         copado_login_btn = self.driver.find_element(By.ID, "Login")
         copado_login_btn.click()
 
         time.sleep(3)
-
-        ####### jayden's code ################
 
         role = "admin1"
         WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((By.TAG_NAME, 'force-aloha-page')))
