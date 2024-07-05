@@ -8,9 +8,6 @@ Twilio-automation is a Python-based project that uses Selenium to automate web i
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
